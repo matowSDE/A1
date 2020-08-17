@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
-const myid = ['743709278157799529'];
-const developers = ['743709278157799529'];
+const myid = ['742154845678600304'];
+const developers = ['742154845678600304'];
+const prefix = ['$'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -9,7 +10,7 @@ const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 
 
-
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
 
 
 client.login(process.env.T);
@@ -20,7 +21,7 @@ client5.login(process.env.T5);
 client6.login(process.env.T6);
 
 
-
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
 
 
 client.on('message', message => {
@@ -150,7 +151,7 @@ message.channel.send('#profile')
 });
 
 
-//???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
 
 
 client.on('message', message => {
@@ -178,6 +179,8 @@ if (!developers.includes(message.author.id)) return;
 });
 
 client4.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``4`` ")
     }
@@ -200,7 +203,7 @@ if (!developers.includes(message.author.id)) return;
 });
 
 
-//???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
 
 client.on('message', message => {
 var argresult = message.content.split(` `).slice(1).join(' ');
@@ -208,7 +211,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
+      for(let x = 0; x < 40000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -224,7 +227,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
+      for(let x = 0; x < 40000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -240,7 +243,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
+      for(let x = 0; x < 40000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -256,7 +259,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
+      for(let x = 0; x < 40000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -272,7 +275,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
+      for(let x = 0; x < 40000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -288,7 +291,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
+      for(let x = 0; x < 40000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -297,3 +300,138 @@ if (message.content === prefix+'fast') {
         }
       }
 });
+
+
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
+client.on('message', message => {
+if (message.content === 'daily') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 2; x++) {
+        message.channel.send(`d1[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client.on('message', message => {
+  if (message.content === 'd1[ " 1 " ]') {
+message.channel.send('#daily')
+  }
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client2.on('message', message => {
+if (message.content === 'd1[ " 1 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`d2[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client2.on('message', message => {
+  if (message.content === 'd2[ " 50 " ]') {
+message.channel.send('#daily')
+  } 
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client3.on('message', message => {
+if (message.content === 'd2[ " 50 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`d3[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client3.on('message', message => {
+  if (message.content === 'd3[ " 50 " ]') {
+message.channel.send('#daily')
+  }
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client4.on('message', message => {
+if (message.content === 'd3[ " 50 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`d4[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client4.on('message', message => {
+  if (message.content === 'd4[ " 50 " ]') {
+message.channel.send('#daily')
+  } 
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client5.on('message', message => {
+if (message.content === 'd4[ " 50 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`d5[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client5.on('message', message => {
+  if (message.content === 'd5[ " 50 " ]') {
+message.channel.send('#daily')
+  }
+
+});
+
+//??????????????????????????????????????????????????????????????????//BY: VZX (Angry Black)
+
+client6.on('message', message => {
+if (message.content === 'd5[ " 50 " ]') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 1; x < 51; x++) {
+        message.channel.send(`d6[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client6.on('message', message => {
+  if (message.content === 'd6[ " 50 " ]') {
+message.channel.send('#daily')
+  } 
+});
+
+//✠▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ☢❦۞❦☢ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬✠//BY: VZX (Angry Black)
