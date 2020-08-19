@@ -211,7 +211,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 45000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -227,7 +227,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 45000; x++) {
         message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -243,7 +243,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 45000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -259,7 +259,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 45000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -275,7 +275,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 45000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -291,7 +291,7 @@ if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 45000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
